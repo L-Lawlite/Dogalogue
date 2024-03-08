@@ -1,0 +1,204 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bone",
+            "count": 1
+        },
+        "title": {
+            "text": "Dogalogue"
+        },
+        "description": {
+            "text": "Tame all wolf variants!"
+        },
+        "frame": "challenge"
+    },
+    "parent": "minecraft:husbandry/tame_an_animal",
+    "criteria": {
+        "minecraft:pale": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:pale"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:woods": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:woods"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:ashen": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:ashen"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:black": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:black"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:chestnut": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:chestnut"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:rusty": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:rusty"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:spotted": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:spotted"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:striped": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:striped"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "minecraft:snowy": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "wolf",
+                                "variant": "minecraft:snowy"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "minecraft:pale"
+        ],
+        [
+            "minecraft:woods"
+        ],
+        [
+            "minecraft:ashen"
+        ],
+        [
+            "minecraft:black"
+        ],
+        [
+            "minecraft:chestnut"
+        ],
+        [
+            "minecraft:rusty"
+        ],
+        [
+            "minecraft:spotted"
+        ],
+        [
+            "minecraft:striped"
+        ],
+        [
+            "minecraft:snowy"
+        ]
+    ],
+    "rewards": {
+        "experience": 50
+    },
+    "sends_telemetry_event": true
+}
