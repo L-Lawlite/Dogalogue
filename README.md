@@ -1,9 +1,7 @@
-# Template for datapack Made by L.Lawliet
-
----
 
 Small datapack to add a advancement for taming all dog variants
 
+--- 
 
 # How to add your own wolf variant to advancement list.
 
