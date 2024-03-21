@@ -1,6 +1,14 @@
 {
-  "pack": {
-    "pack_format": 18,
-    "description": "Datapack pack template made by L.Lawliet"
-  }
+    "pack": {
+        "pack_format": 36,
+        "supported_formats": {
+            "min_inclusive": 36
+        },
+        "description": "Datapack to add advancements for all dog variants"
+    },
+    "features": {
+        "enabled": [
+            "update_1_21"
+        ]
+    }
 }
