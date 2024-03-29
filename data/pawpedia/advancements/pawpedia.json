@@ -5,13 +5,12 @@
             "count": 1
         },
         "title": {
-            "text": "A Complete Dogalogue"
+            "text": "A Complete Pawpedia"
         },
         "description": {
             "text": "Tame all wolf variants!"
         },
         "frame": "challenge"
-
     },
     "parent": "minecraft:husbandry/tame_an_animal",
     "criteria": {
